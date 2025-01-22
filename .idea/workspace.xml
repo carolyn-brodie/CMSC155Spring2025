@@ -4,174 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMSC155Spring2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/BadProgrammingPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/DecimalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/FirstIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/FourthIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/SecondIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/SelectionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/ThirdIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/TryFloatingPt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/TryNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/TrySwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/UsingAScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week1/UsingStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryQueues/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryQueues/JavaQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryQueues/QueueTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryQueues/QueueTesterTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/MatchParens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/OurStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/OurStackTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/RecursiveRTStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/RunTimeStackExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week10/tryStacks/TryJavaStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/NoncomparativeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/BankTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/PrinterTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/Printers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/TreeSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/TryHashFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11/setsMaps/TryMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/GenericNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/LimitationsOfGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/NCBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/OurStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/OurStackTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/OurUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/OurUtilsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/SortingInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/TestBool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week12/bookTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/FileIOExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/OurStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/OurStackTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/ReadFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/StackOutOfRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/FileIO/WriteToFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/databaseTest/SimpleDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/databaseTest/TestDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/CalculateInterest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/MultiDArrayLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/PrintUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/RaggedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/TryArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13/multidimensionalArrays/testArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/BankAccountDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/BankTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/CreateSimpleBankDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/DataConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/PrintDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week14/SimpleDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/BadProgramming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/DoWhileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/FirstFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/FirstWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/IfandSemicolon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/ValidatingInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/WhileLoopExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/BadFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/BankAccountTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/ExampleVoidReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/FindPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/FirstFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/HappyBirthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/MethodCallingMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/NoConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/OrderOfParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/PersonTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/ThoughtExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BankAcctTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/PetTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/TryOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/ArraySizeAdjustment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/ArrayWithMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/ArraysAsParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/BankAccountTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/BookTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/Bucket1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/Efficiency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/FirstArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/IteratingThruArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/LibraryPatron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/ReturningArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/TryArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/VariableParms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/BankAccountTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/PersonTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/animals/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/animals/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/animals/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/ipadExample/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/ipadExample/ProductTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/shapes/ShapeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/shapes/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/Hurricane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/StormTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/StormWarning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/StormWarningV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/StormWarningV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/ThunderStorm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/storm/Tornado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/week7Examples/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/week7Examples/BankAccountTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/week7Examples/CompareStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week7/week7Examples/SortingPrimitives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/AddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/FirstRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/MergeSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/MethodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/Perm2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/RecurseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/RecurseInArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/StringReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/searchExample/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/searchExample/BuiltInSearchExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/searchExample/SearchAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/JavaLinkedLists/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/JavaLinkedLists/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/JavaLinkedLists/EfficiencyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/JavaLinkedLists/TryLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/OurLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/OurLinkedList/NodeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/OurLinkedList/OurLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/OurLinkedList/OurLinkedListTester.java" afterDir="false" />
+    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="Get ready for semester">
+      <change afterPath="$PROJECT_DIR$/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/FlexibleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMSC155Spring2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC155Spring2025.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/FirstIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/FirstIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/SelectionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/SelectionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/TrySwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/TrySwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week14/BankAccountDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week14/BankAccountDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week14/DataConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week14/DataConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,9 +23,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;carolyn-brodie&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carolyn-brodie/CMSC155Spring2025.git&quot;,
+    &quot;accountId&quot;: &quot;c7816c30-e571-4d63-8216-9bb4e63b22fd&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rQ1XaPSpPm1FdW2jMbcMpkbKL8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -192,11 +49,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankTester.executor": "Run",
+    "Application.CreateSimpleBankDB.executor": "Run",
     "Application.First.executor": "Run",
+    "Application.FirstIf.executor": "Run",
+    "Application.SelectionOperator.executor": "Run",
+    "Application.TestDB.executor": "Run",
+    "Application.TrySwitch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/carolyn.brodie/IdeaProjects/CMSC155Spring2025/src"
+    "last_opened_file_path": "C:/Users/carolyn.brodie/Dropbox/MyClasses/CMSC155Spring2025/DerbyDownload/db-derby-10.16.1.1-bin/lib/derbyrun.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -204,9 +70,61 @@
       <recent name="C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2025\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.First" />
+  <component name="RunManager" selected="Application.TrySwitch">
+    <configuration name="BankTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week14.BankTester" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateSimpleBankDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week14.CreateSimpleBankDB" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.FirstIf" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.SelectionOperator" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrySwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.TrySwitch" />
       <module name="CMSC155Spring2025" />
       <extension name="coverage">
         <pattern>
@@ -220,7 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.First" />
+        <item itemvalue="Application.TrySwitch" />
+        <item itemvalue="Application.SelectionOperator" />
+        <item itemvalue="Application.FirstIf" />
+        <item itemvalue="Application.BankTester" />
+        <item itemvalue="Application.CreateSimpleBankDB" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +155,19 @@
       <option name="presentableId" value="Default" />
       <updated>1736476525057</updated>
     </task>
+    <task id="LOCAL-00001" summary="Get ready for semester">
+      <option name="closed" value="true" />
+      <created>1736477237637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736477237637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Get ready for semester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get ready for semester" />
   </component>
 </project>

@@ -3,7 +3,7 @@ package week1;
 public class TrySwitch {
 
     public static void main(String[] args) {
-        String foodGrade = "GradeB";
+        String foodGrade = "GradeA";
 
         switch(foodGrade) {
             case "GradeA":

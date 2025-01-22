@@ -7,9 +7,16 @@ public class FirstIf
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = input.nextInt();
+
         if (num > 0)
         {
+
             System.out.println("The number, " + num + ", is positive");
+            System.out.println("Another line");
+        }
+        else if (num == 0)
+        {
+            System.out.println("The number, " + num + ", is equal to zero");
         }
         else
         {

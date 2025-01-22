@@ -65,7 +65,7 @@ public class BankAccountDB {
 	private String getOwner() {
 		String owner = "";
 		ResultSet result = null;
-		String query = "SELECT Owner FROM Accounts WHERE Account_Num = " + accountNum;
+		final String query = "SELECT Owner FROM Accounts WHERE Account_Num =" + accountNum;
 		try {
 			result = db.runQuery(query);
 			if (result.next())
@@ -81,7 +81,9 @@ public class BankAccountDB {
 	
 	//toString
 	public String toString() {
+		System.out.println("In toString");
 		return getOwner() + " has "  + " account Number " + accountNum + ": $" + getBalance();
+		//return getOwner() + " has "  + " account Number " + accountNum;
 	}
 	
 	//deposit
@@ -108,9 +110,9 @@ public class BankAccountDB {
 	public double getBalance() {
 		double balance = 0;
 		ResultSet result = null;
-		String query = "SELECT Balance FROM Accounts WHERE Account_Num = " + accountNum;
+		String query = "SELECT Balance FROM Accounts WHERE Account_Num = ?";
 		try {
-			result = db.runQuery(query);
+			result = db.runQuery(query, "" + accountNum);
 			if (result.next())
 				balance = result.getDouble("Balance");
 			result.close();

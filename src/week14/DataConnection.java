@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.PreparedStatement;
 
 public class DataConnection {
 	
@@ -23,7 +24,8 @@ public class DataConnection {
 	
 	//Get data from the database
     public ResultSet runQuery(String query) throws SQLException {
-    	Statement stat = null;
+		System.out.println("Version 1");
+		Statement stat = null;
 		ResultSet result = null;
 	
 		if (con == null) 
@@ -34,6 +36,23 @@ public class DataConnection {
 	
 		return result;
     }
+
+	//Get data from the database
+	public ResultSet runQuery(String query, String bindvalue ) throws SQLException {
+		System.out.println("Version 2 " + query + " " + bindvalue );
+		Statement stat = null;
+		ResultSet result = null;
+
+		if (con == null)
+			con = SimpleDataSource.getConnection();
+//		stat = con.createStatement();
+		final PreparedStatement preparedStatement = con.prepareStatement(query);
+		preparedStatement.setString(1, bindvalue);
+
+		result = preparedStatement.executeQuery();
+
+		return result;
+	}
     
  
      
