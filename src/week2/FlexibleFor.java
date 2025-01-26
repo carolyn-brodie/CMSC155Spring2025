@@ -11,10 +11,10 @@ public class FlexibleFor {
             System.out.print(count  + " ");
         // count DECREASES
         System.out.println();
-
+//
         for (double count = 1.1; count < 10; count = count + 2.7)
             System.out.print(count + " ");
-        // count is a floating point variable
+//        // count is a floating point variable
 
     }
 }

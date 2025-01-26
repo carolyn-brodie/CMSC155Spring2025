@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="Get ready for semester">
-      <change afterPath="$PROJECT_DIR$/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/FlexibleFor.java" afterDir="false" />
+    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="Updates to methods and extras for next semester">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMSC155Spring2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC155Spring2025.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week1/FirstIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/FirstIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week1/SelectionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/SelectionOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week1/TrySwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/TrySwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week14/BankAccountDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week14/BankAccountDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week14/DataConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week14/DataConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/FirstFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/FirstFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/FlexibleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/FlexibleFor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +53,9 @@
     "Application.BankTester.executor": "Run",
     "Application.CreateSimpleBankDB.executor": "Run",
     "Application.First.executor": "Run",
+    "Application.FirstFor.executor": "Run",
     "Application.FirstIf.executor": "Run",
+    "Application.FlexibleFor.executor": "Run",
     "Application.SelectionOperator.executor": "Run",
     "Application.TestDB.executor": "Run",
     "Application.TrySwitch.executor": "Run",
@@ -70,26 +73,13 @@
       <recent name="C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2025\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrySwitch">
-    <configuration name="BankTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week14.BankTester" />
+  <component name="RunManager" selected="Application.FlexibleFor">
+    <configuration name="FirstFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.FirstFor" />
       <module name="CMSC155Spring2025" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateSimpleBankDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week14.CreateSimpleBankDB" />
-      <module name="CMSC155Spring2025" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week14.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlexibleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.FlexibleFor" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlexibleFor" />
+        <item itemvalue="Application.FirstFor" />
         <item itemvalue="Application.TrySwitch" />
         <item itemvalue="Application.SelectionOperator" />
         <item itemvalue="Application.FirstIf" />
-        <item itemvalue="Application.BankTester" />
-        <item itemvalue="Application.CreateSimpleBankDB" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1736477237637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates to methods and extras for next semester">
+      <option name="closed" value="true" />
+      <created>1737560907174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560907174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updates to methods and extras for next semester">
+      <option name="closed" value="true" />
+      <created>1737560944086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560944086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get ready for semester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get ready for semester" />
+    <MESSAGE value="Updates to methods and extras for next semester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to methods and extras for next semester" />
   </component>
 </project>
