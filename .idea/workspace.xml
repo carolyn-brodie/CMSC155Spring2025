@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="Updates to methods and extras for next semester">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week2/FirstFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/FirstFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week2/FlexibleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/FlexibleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,9 @@
     "Application.TrySwitch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/carolyn.brodie/Dropbox/MyClasses/CMSC155Spring2025/DerbyDownload/db-derby-10.16.1.1-bin/lib/derbyrun.jar",
+    "last_opened_file_path": "C:/Users/carolyn.brodie/IdeaProjects/CMSC155Term2025",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737560944086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updates to methods and extras for next semester">
+      <option name="closed" value="true" />
+      <created>1737857819547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737857819547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
