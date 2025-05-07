@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="Updates to methods and extras for next semester">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="e2a853a9-1be9-4d23-8f99-250aee060dec" name="Changes" comment="New example of interfaces">
+      <change afterPath="$PROJECT_DIR$/src/tryLambdas/AbstractFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tryLambdas/LambdaFunc1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tryLambdas/LambdaFunc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tryLambdas/TryStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tryLambdas/UsingLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week1/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,14 +60,18 @@
     "Application.FirstFor.executor": "Run",
     "Application.FirstIf.executor": "Run",
     "Application.FlexibleFor.executor": "Run",
+    "Application.LambdaFunc1.executor": "Run",
+    "Application.LambdaFunc2.executor": "Run",
     "Application.SelectionOperator.executor": "Run",
     "Application.TestDB.executor": "Run",
+    "Application.TryStreams.executor": "Run",
     "Application.TrySwitch.executor": "Run",
+    "Application.UsingLambdas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/carolyn.brodie/IdeaProjects/CMSC155Term2025",
+    "last_opened_file_path": "C:/Users/carolyn.brodie/IdeaProjects/CMSC155Spring2025/src/week7/companyFinance",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -71,36 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2025\src\week7\companyFinance" />
       <recent name="C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2025\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tr" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FlexibleFor">
-    <configuration name="FirstFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.FirstFor" />
-      <module name="CMSC155Spring2025" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.FirstIf" />
-      <module name="CMSC155Spring2025" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TryStreams">
     <configuration name="FlexibleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week2.FlexibleFor" />
       <module name="CMSC155Spring2025" />
@@ -114,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.SelectionOperator" />
+    <configuration name="LambdaFunc1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tryLambdas.LambdaFunc1" />
       <module name="CMSC155Spring2025" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="tryLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +113,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrySwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.TrySwitch" />
+    <configuration name="LambdaFunc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tryLambdas.LambdaFunc2" />
       <module name="CMSC155Spring2025" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="tryLambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tryLambdas.TryStreams" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tryLambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tryLambdas.UsingLambdas" />
+      <module name="CMSC155Spring2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tryLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryStreams" />
+        <item itemvalue="Application.LambdaFunc2" />
+        <item itemvalue="Application.LambdaFunc1" />
+        <item itemvalue="Application.UsingLambdas" />
         <item itemvalue="Application.FlexibleFor" />
-        <item itemvalue="Application.FirstFor" />
-        <item itemvalue="Application.TrySwitch" />
-        <item itemvalue="Application.SelectionOperator" />
-        <item itemvalue="Application.FirstIf" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +203,29 @@
       <option name="project" value="LOCAL" />
       <updated>1737857819547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New example of interfaces">
+      <option name="closed" value="true" />
+      <created>1740709379043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740709379043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New example of interfaces">
+      <option name="closed" value="true" />
+      <created>1740709386159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740709386159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get ready for semester" />
     <MESSAGE value="Updates to methods and extras for next semester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates to methods and extras for next semester" />
+    <MESSAGE value="New example of interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="New example of interfaces" />
   </component>
 </project>
